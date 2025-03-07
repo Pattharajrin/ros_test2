@@ -1,0 +1,9 @@
+# Request (ส่งข้อมูลเข้า Service)
+bool request_info   # true = ขอข้อมูลสิ่งกีดขวาง
+
+---
+# Response (ส่งข้อมูลออกจาก Service)
+float32 distance    # ระยะทางของสิ่งกีดขวาง (m)
+float32 angle       # องศาของสิ่งกีดขวาง
+bool is_obstacle    # true ถ้ามีสิ่งกีดขวาง
+string message      # ข้อความเพิ่มเติม เช่น "Obstacle detected at 0.3m, 90 degrees."

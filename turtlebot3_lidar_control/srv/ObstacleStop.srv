@@ -1,0 +1,3 @@
+bool stop  # ถ้า true = หยุด, false = เดินต่อ
+---
+bool success  # บอกว่า Service ทำงานสำเร็จหรือไม่

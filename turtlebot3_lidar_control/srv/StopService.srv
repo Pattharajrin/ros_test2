@@ -1,0 +1,7 @@
+# Request (ส่งข้อมูลเข้า Service)
+bool stop           # true = หยุดหุ่นยนต์, false = ให้เคลื่อนที่ได้
+
+---
+# Response (ส่งข้อมูลออกจาก Service)
+bool success        # true ถ้าหยุดสำเร็จ, false ถ้าหยุดไม่สำเร็จ
+string message      # ข้อความตอบกลับ เช่น "Robot stopped due to obstacle."
